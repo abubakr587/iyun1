@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --bg-color: #f8f8f8;
+  --text-color: #000;
+  --btn-bg: #f7931e;
+  --btn-text: #fff;
+  --card-bg: transparent;
+}
+
+/* body.dark {
+ 
+} */
+
+.h1{
+
+position: absolute;
+width: 420px;
+height: 112px;
+left: 119px;
+top: 182px;
+}
+
+.cta{
+border-radius: 3px;
+position: absolute;
+width: 195px;
+height: 53px;
+left: 119px;
+top: 561px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.3s ease;
+  padding: 30px;
+  background-color: rgb(196, 181, 165);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+}
+
+nav button {
+  background-color: #ddd;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.text-content {
+  max-width: 40%;
+}
+
+.text-content h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.text-content .cta {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.image {
+  background: url(wallpapersden.com_stray-game_1920x1080),rgb(151, 151, 151);
+}
+
+.image img {
+  width: 739px;
+height: 432px;
+left: 702px;
+top: 182px;
+
+}
